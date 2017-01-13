@@ -1,5 +1,5 @@
 {
-    "name": "John Doe",
+    "name": "Bertrand Martel",
     "services": [{
         "name": "Github",
         "link": "https://github.com/bertrandmartel",
@@ -18,8 +18,8 @@
         "font": "fa-download"
     }],
     "title": "Software Engineer",
-    "copyright": "Copyright © John Doe 2017",
-    "email": "johndoe@gmail.com",
+    "copyright": "Copyright © Bertrand Martel 2017",
+    "email": "bmartel.fr@gmail.com",
     "location": {
         "city": "Paris",
         "country": "France"
@@ -140,7 +140,7 @@
             "Android NDK",
             "Backend"
         ],
-        "image": "assets/images/company.png"
+        "image": "assets/images/bouyguestelecom.png"
     }, {
         "dateBegin": "2013-04-01",
         "dateEnd": "2013-09-01",
@@ -154,12 +154,12 @@
             "Spring",
             "Backend"
         ],
-        "image": "assets/images/company.png"
+        "image": "assets/images/bouyguestelecom.png"
     }],
     "education": [{
         "dateBegin": "2008-09-01",
         "dateEnd": "2013-09-01",
-        "image": "assets/images/school.png",
+        "image": "assets/images/sudria.png",
         "description": "Master 2 Embedded System ESME Sudria engineering school",
         "tags": [
             "C++",
@@ -784,6 +784,110 @@
         "languages": [
             "Java",
             "C++"
+        ]
+    }, {
+        "time": "2015-11-01",
+        "name": "BboxIoT Service : BLE Android service on Bbox Miami",
+        "tags": [
+            "android",
+            "android-bluetooth",
+            "bluetooth-lowenergy"
+        ],
+        "description": "Android service controlling Bluetooth Low Energy devices on Bbox Miami Android Set-Top-Box. A range of BLE devices are supported including : \r\n• Beewi SmartLite \r\n• Beewi SmartClim \r\n• Beewi SmartTrack \r\n• Parrot Flower Power \r\n• RtRk Oblo plug \r\n• Awox Aroma Light \r\n• Awox SmartLight \r\n• Awox Smartplug \r\n• NIU button \r\n• Witty Notti Led",
+        "image": "assets/images/bboxiot.png",
+        "languages": [
+            "Java"
+        ]
+    }, {
+        "time": "2015-02-01",
+        "name": "Smart Miami : BLE bridge between Android devices",
+        "tags": [
+            "android",
+            "android-bluetooth",
+            "bluetooth-lowenergy",
+            "google-cloud-messaging"
+        ],
+        "description": "Android application controlling a range of Bluetooth Low Energy devices, associating with other Android devices running the same application with the ability for a non-BLE Android device to control the devices paired to the other Android device. GCM is used to communicate between Android devices (associations, events etc...)",
+        "image": "assets/images/analyzer.png",
+        "languages": [
+            "Java"
+        ]
+    }, {
+        "time": "2014-10-01",
+        "name": "FortBox : a monitoring platform for Smart Home OTT box",
+        "tags": [
+            "c++",
+            "qt",
+            "qtnetwork",
+            "openssl",
+            "qmake",
+            "web",
+            "JavaScript",
+            "openvpn",
+            "datatables",
+            "jquery"
+        ],
+        "description": "A backend platform monitoring Smart Home box service status, remote access via openvpn, a web interface, remote API access such as scanning, associating, removing Smart Home devices",
+        "image": "assets/images/hopebox.png",
+        "languages": [
+            "C++",
+            "JavaScript"
+        ]
+    }, {
+        "time": "2014-09-01",
+        "name": "Deltadore devices integration in a Smart Home solution",
+        "tags": [
+            "java",
+            "osgi",
+            "osgi-bundle"
+        ],
+        "description": "Deltadore is a French company making Smart Home devices running their own radio protocol. This project consists in integrating their library to control these devices in an OSGI service",
+        "image": "assets/images/deltadore.png",
+        "languages": [
+            "Java"
+        ]
+    }, {
+        "time": "2014-09-01",
+        "name": "Zwave Java stack",
+        "tags": [
+            "java",
+            "z-wave"
+        ],
+        "description": "Full Zwave stack (including security) in Java for an OSGI context (OSGI service)",
+        "image": "assets/images/zwave.png",
+        "languages": [
+            "Java"
+        ]
+    }, {
+        "time": "2014-06-01",
+        "name": "HopeBox : API client for a Smart Home solution",
+        "tags": [
+            "java",
+            "websocket",
+            "osgi",
+            "osgi-bundle",
+            "apache-felix"
+        ],
+        "description": "A Java API interface using HTTP and websocket protocol to communicate with a backend server to convey Smart Home devices notifications, status, scenarios & logs. Included features : \r\n• HTTP Rest API \r\n• websocket connection with some API (events) \r\n• authentication \r\n• dispatch events",
+        "image": "assets/images/hopebox.png",
+        "languages": [
+            "Java"
+        ]
+    }, {
+        "time": "2013-09-01",
+        "name": "BPass : authorize access to your home via a zwave doorlock",
+        "tags": [
+            "java",
+            "z-wave",
+            "osgi",
+            "osgi-bundle",
+            "apache-felix",
+            "android"
+        ],
+        "description": "Send a temporary code to your guest to open your zwave doorlock via SMS with an Android application. Doorlock device used is Poly-Control controlled through a Vera2 box",
+        "image": "assets/images/hopebox.png",
+        "languages": [
+            "Java"
         ]
     }],
     "stackoverflow":{
